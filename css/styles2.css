@@ -1,0 +1,43 @@
+.jumborton {
+  background-color: aliceBlue;
+  color: black;
+  margin-top: 50px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.btn-reserva {
+  font-weight: 500 ;
+  width: 100%;
+  border-radius: 30px;
+}
+.btn-contacto {
+  font-weight: 500 ;
+  width: 50%;
+  border-radius: 30px;
+  margin: 10px;
+}
+footer {
+  padding: 10px 10px 0 10px;
+  background-color: grey;
+  margin-bottom: 0px;
+  margin-top: 10 px;
+}
+.footer-icon {
+  padding-right: 10px;
+}
+.card-hotel {
+  flex: 1 200px;
+  margin: 10px;
+  border-radius: 30px;
+  opacity: 0.7;
+  background-color: grey;
+}
+.fa {
+  padding: 10px;
+}
+.container {
+  padding-bottom: 15px;
+  padding-top: 15px;
+}

@@ -1,0 +1,56 @@
+$yellow: #d4e32d;
+$aliceBlue: #f2fcfc;
+$grey:#e8e8e7;
+$black:#303030;
+
+@mixin margenes($top, $bottom){
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+@mixin padding($top, $bottom, $left, $right){
+    padding-top: $top;
+    padding-bottom: $bottom;
+    padding-left: $left;
+    padding-right: $right;
+}
+
+.jumborton {
+    background-color:$aliceBlue;
+    color:$black;
+    margin-top: 50px;
+    @include padding(30px,30px,10px,10px )
+}
+.btn-reserva{
+    font-weight:500 ;
+    width: 100%;
+    border-radius: 30px;
+}
+.btn-contacto{
+    font-weight:500 ;
+    width: 50%;
+    border-radius: 30px;
+    margin: 10px;
+}
+footer{
+    padding: 10px 10px 0 10px;
+    background-color:$grey;
+    margin-bottom:  0px;
+    margin-top: 10 px;
+}
+.footer-icon{
+    padding-right: 10px;
+}
+.card-hotel{
+    flex: 1 200px;
+    margin: 10px;
+    border-radius: 30px;
+    opacity: 0.7;
+    background-color:$grey;
+}
+.fa{
+    padding: 10px;
+}
+.container{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}

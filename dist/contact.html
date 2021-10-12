@@ -1,1 +1,113 @@
-<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no"><link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css"><link rel="stylesheet" href="css/styles.css"><link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css"><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script><title>Guia Hoteles!</title></head><body><nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:grey"><a class="navbar-brand" href="#">Hoteles</a> <button class="navbar-toggler" typ="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button><div class="collapse navbar-collapse" id="navbarNavDropdown"><ul class="navbar-nav mr-auto"><li class="nav-item"><a class="nav-link" href="./index.html">Home</a></li><li class="nav-item"><a class="nav-link" href="./about.html">Nostros</a></li><li class="nav-item"><a class="nav-link" href="./prices.html">Precios</a></li><li class="nav-item"><a class="nav-link" href="./legal.html">Terminos y Condiciones</a></li><li class="nav-item active"><a class="nav-link" href="./contact.html">Contacto</a></li></ul></div></nav><div class="jumborton"><h1>Hoteles</h1></div><div class="container"><nav aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item" aria-current="page"><a href="./index.html">Home</a></li><li class="breadcrumb-item active" aria-current="page">Contacto</li></ol></nav></div><div class="container"><h1>Dejame tu comentario</h1><form><div class="form-row"><div class="form-group col-sm-6"><label for="nombre">Nombre</label> <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre"></div><div class="form-group col-sm-6"><label for="apellid">Apellido</label> <input type="text" class="form-control" id="apellido" placeholder="Ingreso tu aellido"></div></div><div class="form-grup"><label for="email">Email</label> <input type="email" class="form-control" id="email" placeholder="Ingresa tu email"></div><div class="form-row"><div class="form-group col-sm-6"><label for="domicilio">Domicilio</label> <input type="text" class="form-control" id="domicilio" placeholder="Ingresa tu domicilio"></div><div class="form-group col-sm-6"><label for="domicilio">Domicilio</label> <select id="pais" class="form-control"><option selected="selected">Uruguay</option><option selected="selected">Brasil</option><option selected="selected">Argentina</option></select></div></div><div class="form-grup"><label for="comentario">Comentario</label> <textarea id="comentario" class="form-control" rows="8"></textarea></div><div class="form-grup"><div class="form-check"><input type="checkbox" class="form-check-input" id="terminos"> <label class="form-check-label" for="terminos">Acepto el uso de mis datos segun los <a href="./legal.html">terminos y condiciones.</a></label></div></div></form></div><div class="col-sm-4"><address><h6>Wilson Ferreira Aldunate</h6><p><span class="oi oi-home footer-icon"></span>Maldoando</p><p><span class="oi oi-phone footer-address-icon"></span>+5989111111</p><p><span class="oi oi-envelope-closed"></span>example@example.com</p></address></div><div class="col-sm-4 d-flex flex-column align-items-end"><a href="./contac.html">Contactanos</a> <a href="./about.html">Nostros</a> <a href="./legal.html">Teminos y condiciones</a> <a href="./jobs.html">Trabaja con nostros</a></div></body></html>
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <!-- build:css dist/main.css -->
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
+    <link rel="stylesheet" href="css/styles.css"> 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- endBuild -->
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <!-- build:js js/main.js -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="js\index.js"></script>
+    <!-- endBuild -->
+
+    <title>Guia Hoteles!</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-md navbar-light fixed-top" style="background-color:grey;">
+      <a class="navbar-brand" href="#">Hoteles</a>
+      <button class="navbar-toggler" typ="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item "><a class="nav-link" href="./index.html">Home</a></li>
+          <li class="nav-item "><a class="nav-link" href="./about.html">Nostros</a></li>
+          <li class="nav-item "><a class="nav-link" href="./prices.html">Precios</a></li>
+          <li class="nav-item "><a class="nav-link" href="./legal.html">Terminos y Condiciones</a></li>
+          <li class="nav-item active"><a class="nav-link" href="./contact.html">Contacto</a></li>
+        </ul>
+      </div>
+    </nav>
+    <div class="jumborton">
+        <h1>Hoteles</h1>
+    </div>
+    <div class="container">
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item " aria-current="page"><a href="./index.html">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+        </ol>
+      </nav>
+    </div>
+    <div class="container">
+    <h1>Dejame tu comentario</h1>
+    <form>
+      <div class="form-row">
+        <div class="form-group col-sm-6">
+          <label for="nombre">Nombre</label>
+          <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre"> 
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="apellid">Apellido</label>
+          <input type="text" class="form-control" id="apellido" placeholder="Ingreso tu aellido"> 
+        </div>
+      </div>
+      <div class="form-grup">
+        <label for="email">Email</label>
+        <input type="email" class="form-control" id="email" placeholder="Ingresa tu email"> 
+      </div>
+      <div class="form-row">
+        <div class="form-group col-sm-6">
+          <label for="domicilio">Domicilio</label>
+          <input type="text" class="form-control" id="domicilio" placeholder="Ingresa tu domicilio"> 
+        </div>
+        <div class="form-group col-sm-6">
+          <label for="domicilio">Domicilio</label>
+          <select id="pais" class="form-control">
+            <option selected>Uruguay</option>
+            <option selected>Brasil</option>
+            <option selected>Argentina</option>
+          </select>
+        </div>
+      </div>
+      <div class="form-grup">
+        <label for="comentario">Comentario</label>
+        <textarea id="comentario" class="form-control" rows="8"></textarea>
+      </div>
+      <div class="form-grup">
+        <div class="form-check">
+          <input type="checkbox" class="form-check-input" id="terminos">
+          <label class="form-check-label" for="terminos">Acepto el uso de mis datos segun los <a href="./legal.html">terminos y condiciones.</a></label>
+        </div>
+      </div>
+      </div>
+      <div class="col-sm-4">
+        <address>
+          <h6>Wilson Ferreira Aldunate</h6>
+          <p><span class="oi oi-home footer-icon"></span>Maldoando</p>
+          <p><span class="oi oi-phone footer-address-icon"></span>+5989111111</p>
+          <p><span class="oi oi-envelope-closed"></span></span>example@example.com</p>
+        </address>
+      </div>
+      <div class="col-sm-4 d-flex flex-column align-items-end">
+        <a href="./contac.html">Contactanos</a>
+        <a href="./about.html">Nostros</a>
+        <a href="./legal.html">Teminos y condiciones</a>
+        <a href="./jobs.html">Trabaja con nostros</a>
+      </div>
+    </div>
+    </footer>
+</body>
+</html>

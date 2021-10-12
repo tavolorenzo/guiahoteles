@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
     <!-- Bootstrap CSS -->
-    <!-- build:css dist/index.css -->
+    <!-- build:css dist/main.css -->
     <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.css">
     <link rel="stylesheet" href="css/styles.css"> 
@@ -15,19 +15,11 @@
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <!-- build:js dist/index.js -->
+    <!-- build:js js/main.js -->
      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-     <script>
-       $(function () {
-           $('[data-toggle="tooltip"]').tooltip()
-           $('[data-toggle="popover"]').popover()
-           $('.carousel').carousel({
-             interval:2000
-           });
-        })
-     </script>
+     <script src="js\index.js"></script>
      <!-- endBuild -->
     <title>Guia Hoteles!</title>
   </head>
@@ -257,7 +249,7 @@
             <p class="card-text">Hotel ubicado a pocos metros de la playa.</p>
           </div>
           <div class="card-footer text-center"> 
-            <button type="button" class="btn btn-outline-info btn-contacto" data-toggle="modal" data-target="#contacto" data-toggle="popover" title="No dudes en consultarnos">
+            <button type="button" class="btn btn-outline-info btn-contacto" data-toggle="modal" data-target="#contacto" data-toggle="popover" title="No dudes en consultarnos" id="contactoBtn">
               Contacto
             </button>
             <button class="btn btn-success btn-reserva" data-toggle="popover" title="Promocion especial" data-content="Reserva hoy mimso con un 15% off !!!">Reservar</button>
